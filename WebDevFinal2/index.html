@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,400" rel="stylesheet">
+  <title>Web Development Final</title>
+</head>
+<body>
+
+  <!---Header-->
+  <header>
+    <a href="#" class="logo"><span>C</span>ole<span>L</span>ong</a>
+
+    <ul class="navlist">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+
+    <div class="bx bx-menu" id="menu-icon">
+
+    </div>
+  </header>
+
+  <!--HomePage-->
+  <section class="home" id="home">
+    <div class="home-text">
+      <div class="slide">
+        <span class="one">Hello!</span>
+        <span class="two">My name is</span>
+      </div>
+      <h1>Cole</h1>
+      <h3>Frontend<span> Developer</span></h3>
+      <p>Frontend Web Developer/<span>UI/UX</span> designer with 1 month professional experience, and almost<span> 1 year</span> in school!</p>
+      <div class="button">
+        <a href="#" class="btn">Reach Out to Me!</a>
+        <a href="https://github.com/colelong101?tab=repositories" target="_blank" class="btn2"><span><i class='bx bxl-github'></i></span>GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!--AboutPage-->
+  <section class="about" id="about">
+      <div class="about-img">
+        <img src="/cole-long.jpg">
+      </div>
+
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <h4>Frontend Web Developer & UI/UX Designer</h4>
+        <p>A motivated frontend developer and designer, studying Computer Science in Wichita, KS. I was born and raised in Haven, KS, where I completed all of my schooling and moved to Wichita. From there, I started studying at WSU Tech, for Computer Science, Cloud Computing and IT Essentials. I am currently searching for a paid internship where I can showcase my skills and learn even more about to become a better developer!</p>
+        <a href="#" class="btn">More About</a>
+      </div>
+
+      <div class="techs">
+        <i class='bx bxl-html5' ></i>
+        <i class='bx bxl-css3' ></i>
+        <i class='bx bxl-javascript' ></i>
+        <i class='bx bxl-python' ></i>
+      </div>
+  </section>
+
+  <!--ProjectsPage-->
+  <section class="projects" id="projects">
+    <div class="main-text">
+      <p>My Projects</p>
+      <h2><span>Project</span> Showcase</h2>
+    </div>
+
+    <div class="projects-content">
+      <div class="box">
+        <div class="p-icons">
+          <i class='bx bxl-javascript' ></i>
+        </div>
+        <h3><span>Javascript</span> Name List Creator</h3>
+        <p>This is a simple program, using JS that lets a user input a name, or multiple names, and it lists them in alphabetical order. The program also has a "Clear" function to clear the list!</p>
+        <a href="https://github.com/colelong101/Web-Dev--Assignment-5" target="_blank" class="view-gh">View Repository</a>
+      </div>
+
+      <div class="box">
+        <div class="p-icons">
+          <i class='bx bxl-python' ></i>
+        </div>
+        <h3><span>Python</span> Measurement Calculator</h3>
+        <p>This program simply reads input in a csv file, using a solver module, and is able to calculate the sum of the measurements as well, using pre determined equations for each shape class!</p>
+        <a href="https://github.com/colelong101/PyAssignment2" target="_blank" class="view-gh">View Repository</a>
+      </div>
+
+    </div>
+  </section> 
+
+  <!--ContactPage-->
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>Contact <span>Me</span></h2>
+      <h4>If you are an employer, or simply someone who is dropping by, feel free to contact me, and let me know what you think of my page!</h4>
+      <p>I am <span>ALWAYS</span> open to feedback and anything I can improve on, so now is the chance to get ahold of me, and let me know!</p>
+      <div class="list">
+        <li><a href="#">6206152894</a></li>
+        <li><a href="#">lolecong123@gmail.com</a></li>
+      </div>
+
+      <div class="contact-form">
+        <form action="">
+          <input type="name" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea name="" id="" cols="35" rows="10" placeholder="Say something..."></textarea>
+          <input type="submit" value="Send" class="submit" required>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!---Custom JS-->
+  <script src="/script.js"></script>
+</body>
+</html>
